@@ -21,11 +21,11 @@ let handler = async (m, {
                 const imageBuffer = base64ToBuffer(response.data.image);
 
                 if (response.data.url) {
-                    await conn.sendFile(m.chat, response.data.url || imageBuffer, "", "*[ REMINI URL ]*\n" + (response.data.url ? response.data.url : "instagram.com/noureddine_ouafy"), m)
+                    await conn.sendFile(m.chat, response.data.url || imageBuffer, "", "*[ REMINI URL ]*\n" + (response.data.url ? response.data.url : "instagram.com/ach_raf_1615"), m)
                 }
 
                 if (response.data.image) {
-                    await conn.sendFile(m.chat, imageBuffer || imageBuffer, "", "*[ REMINI IMAGE]*\n" + (response.data.url ? response.data.url : "instagram.com/noureddine_ouafy"), m)
+                    await conn.sendFile(m.chat, imageBuffer || imageBuffer, "", "*[ REMINI IMAGE]*\n" + (response.data.url ? response.data.url : "instagram.com/ach_raf_1615"), m)
                 }
             } else throw "استجابة الصورة غير صالحة"
 

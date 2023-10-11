@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
 		
-			await conn.sendMessage(m.chat, { image: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `_تابع صاحب البوت في الانستغرام_\ninstagram.com/noureddine_ouafy` }, { quoted: m })
+			await conn.sendMessage(m.chat, { image: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `_تابع صاحب البوت في الانستغرام_\ninstagram.com/ach_raf_1615` }, { quoted: m })
 	}
 
 handler.help = ['storyanime']

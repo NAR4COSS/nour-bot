@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
     if (!json.news) throw json;
 
     let techNews = `╔════▣◎▣════╗
-    instagram.com/noureddine_ouafy\n
+    instagram.com/ach_raf_1615\n
      آخر الأخبار \n\n : ${json.news}
       ╚════▣◎▣════╝
     `;

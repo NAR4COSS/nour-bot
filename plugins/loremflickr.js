@@ -12,7 +12,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
 	try {
 	m.reply(wait)
 	 var imge = await getFlickrImageURLByKeyword(text)
-	 conn.sendFile(m.chat, imge, "instagram.com/noureddine_ouafy", "*Result Flickr:*\n" + text.toUpperCase(), m)
+	 conn.sendFile(m.chat, imge, "instagram.com/ach_raf_1615", "*Result Flickr:*\n" + text.toUpperCase(), m)
   } catch (e) {
   throw eror
  }

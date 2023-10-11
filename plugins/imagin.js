@@ -13,7 +13,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
     } else throw query;
     
     try {
-        m.reply("متابعتك لي سوف تجعلني اضيف ميزات جديدة في البوت ♥ \ninstagram.com/noureddine_ouafy");
+        m.reply("متابعتك لي سوف تجعلني اضيف ميزات جديدة في البوت ♥ \ninstagram.com/ach_raf_1615");
         await Draw(text).then((img) => {
             conn.sendFile(m.chat, img, text, `instagram.com/noureddine_ouafy*\n"${text}"`, m);
         });

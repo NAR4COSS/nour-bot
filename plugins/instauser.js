@@ -3,7 +3,7 @@ import axios from 'axios'
 import cheerio from 'cheerio'
 
 let handler= async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0]) throw `مثال \n ${usedPrefix}${command} noureddine_ouafy`
+    if (!args[0]) throw `مثال \n ${usedPrefix}${command} NAR4COOS`
     let res = await igstalk(args[0]) 
       
    let username = res.username

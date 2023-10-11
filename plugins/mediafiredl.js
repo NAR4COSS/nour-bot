@@ -4,7 +4,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let res = await mediafiredl(args[0])
     let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
     let caption = `
-    [ instagram.com/noureddine_ouafy ]
+    [ instagram.com/ach_raf_1615 ]
 *📮 اسم الملف:* ${filename}
 *📁 حجم الملف:* ${filesizeH}
 *🗂️ نوع الملف:* ${ext}
